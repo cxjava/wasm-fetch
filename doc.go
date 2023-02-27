@@ -6,7 +6,7 @@
 		"context"
 		"time"
 
-		"marwan.io/wasm-fetch"
+		"github.com/cxjava/wasm-fetch"
 	)
 
 	ctx, cancel := context.WithTimeout(context.Background(), time.Second)
@@ -17,4 +17,4 @@
 		Signal: ctx,
 	})
 */
-package fetch // import "marwan.io/wasm-fetch"
+package fetch // import "github.com/cxjava/wasm-fetch"

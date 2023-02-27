@@ -1,10 +1,10 @@
 # WASM-FETCH
-[![GoDoc](https://godoc.org/marwan.io/wasm-fetch?status.svg)](https://godoc.org/marwan.io/wasm-fetch)
+[![GoDoc](https://godoc.org/github.com/cxjava/wasm-fetch?status.svg)](https://godoc.org/github.com/cxjava/wasm-fetch)
 
  A go-wasm library that wraps the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 
 ### Install
-`go get marwan.io/wasm-fetch`
+`go get github.com/cxjava/wasm-fetch`
 
 ### Motivation
 Importing net/http adds ~4 MBs to your wasm binary. If that's an issue for you, you can use this
@@ -20,7 +20,7 @@ import (
     "context"
     "time"
 
-    "marwan.io/wasm-fetch"
+    "github.com/cxjava/wasm-fetch"
 )
 
 ctx, cancel := context.WithTimeout(context.Background(), time.Second)

@@ -1,3 +1,3 @@
-module marwan.io/wasm-fetch
+module github.com/cxjava/wasm-fetch
 
-go 1.12
+go 1.20
