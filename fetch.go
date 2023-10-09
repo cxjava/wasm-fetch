@@ -3,7 +3,6 @@ package fetch
 
 import (
 	"bytes"
-	"context"
 	"errors"
 	"io"
 	"syscall/js"
